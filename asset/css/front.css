@@ -618,6 +618,16 @@ form .icon-question-sign {
     text-align: center;
 }
 
+/* news block */
+.news-block h3 {
+    text-align: center;
+    padding: 15px 0;
+}
+
+.news-block .news-item-block-summary {
+    text-align: center;
+}
+
 /* owl */
 .owl-nav [class*='owl-'] {
     font-size: 30px !important;

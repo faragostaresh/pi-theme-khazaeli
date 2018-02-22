@@ -19,6 +19,26 @@
     });
 
     $(document).ready(function ($) {
+        $('.news-item-block .owl-carousel').owlCarousel({
+            //loop:true,
+            //lazyLoad:true,
+            margin: 3,
+            nav: true,
+            rtl: true,
+            autoplay: true,
+            dots: false,
+            autoplayTimeout: 15000,
+            autoplayHoverPause: true,
+            navText: ['<i class="fa fa-angle-right"></i>', '<i class="fa fa-angle-left"></i>'],
+            responsive: {
+                0: {items: 1},
+                600: {items: 2},
+                1000: {items: 4}
+            }
+        })
+    });
+
+    $(document).ready(function ($) {
         $('.recent-event-list .owl-carousel').owlCarousel({
             //loop:true,
             //lazyLoad:true,
@@ -37,5 +57,6 @@
             }
         })
     });
+
 })(jQuery)
 
